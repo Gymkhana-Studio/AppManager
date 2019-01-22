@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 27  
+    defaultConfig {
+        applicationId "com.apps.manager"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.2"
+		resConfigs "en"
+    }
+	aaptOptions {
+    	cruncherEnabled = false
+	}
+    buildTypes {
+        release {
+			shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

@@ -1,0 +1,96 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#3F51B5"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:focusable="false"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:src="@drawable/icon"
+				android:scaleType="fitXY"/>
+			<TextView
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="About Me"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:orientation="vertical">
+			<TextView
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Apps Manager v1.1.0"
+				android:textSize="14sp"
+				android:textColor="#3F51B5"/>
+			<TextView
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Created By :"
+				android:textSize="14sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/txt"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Gabriel Gymkhana"
+				android:textSize="16sp"
+				android:textColor="#795548"/>
+			<TextView
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="This will help you to backup, launch and uninstalling apps. this apps powered By Gymkhana-Studio.\n\nVisit https://gymkhana-studio.blogspot.com\n"
+				android:textSize="16sp"
+				android:textColor="#000000"/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="1dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:gravity="right"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/ok"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Done"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#3F51B5"/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
+
